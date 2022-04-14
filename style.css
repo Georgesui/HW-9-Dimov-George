@@ -1,0 +1,23 @@
+.body__btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+}
+
+.process {
+	background-color: yellow;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+
+.done {
+	background-color: green;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+
+.remove {
+	cursor: pointer;
+}
