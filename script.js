@@ -6,7 +6,7 @@ const containerBody = document.querySelector('.container')
 containerBody.addEventListener('click', (event) => {
 	if (event.target === buttonNeeded && ourInputOnPage.value !== '') {
 		let newLiInList = document.createElement('li');
-		newLiInList.innerHTML = `${ourInputOnPage.value} <button class = "remove">REMOVE</button>`
+		newLiInList.innerHTML = `${ourInputOnPage.value} <button class = "remove">REMOVE</button>`;
 		ourInputOnPage.value = '';
 		ourList.appendChild(newLiInList).setAttribute('class', 'process');
 		return;
